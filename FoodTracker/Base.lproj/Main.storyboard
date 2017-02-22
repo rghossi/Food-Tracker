@@ -44,6 +44,11 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="0SC-pF-bs6" id="poc-S2-OgS"/>
+                                    <outlet property="photoImageView" destination="y0Q-pl-IYx" id="q32-3K-ofM"/>
+                                    <outlet property="ratingControl" destination="dW8-qf-NSJ" id="Ic8-Yw-3ks"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -123,7 +128,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="244" y="310.79460269865069"/>
+            <point key="canvasLocation" x="238" y="301"/>
         </scene>
     </scenes>
     <resources>
