@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mc7-zu-d0l" id="8hy-fO-ZBE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="y0Q-pl-IYx">
@@ -48,6 +48,7 @@
                                     <outlet property="nameLabel" destination="0SC-pF-bs6" id="poc-S2-OgS"/>
                                     <outlet property="photoImageView" destination="y0Q-pl-IYx" id="q32-3K-ofM"/>
                                     <outlet property="ratingControl" destination="dW8-qf-NSJ" id="Ic8-Yw-3ks"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="Rl1-C8-ViF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -66,7 +67,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zD-Hh-Klt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="433" y="301"/>
+            <point key="canvasLocation" x="98" y="337"/>
         </scene>
         <!--New Meal-->
         <scene sceneID="tne-QT-ifu">
@@ -142,7 +143,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2116" y="300.89955022488761"/>
+            <point key="canvasLocation" x="1703" y="337"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VF3-R7-tyY">
@@ -160,7 +161,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNK-SV-jAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="301"/>
+            <point key="canvasLocation" x="-788" y="337"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kme-4j-zCy">
@@ -178,10 +179,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5DP-kK-sIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1176.8" y="300.89955022488761"/>
+            <point key="canvasLocation" x="898" y="701"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="320" height="320"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Rl1-C8-ViF"/>
+    </inferredMetricsTieBreakers>
 </document>
